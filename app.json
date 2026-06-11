@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "RitmNox",
+    "slug": "ritmnox-app",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#000000",
+    "splash": { "backgroundColor": "#000000", "resizeMode": "contain" },
+    "android": {
+      "package": "com.ritmnox.app",
+      "versionCode": 2,
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": { "backgroundColor": "#000000" }
+    },
+    "plugins": [
+      ["expo-sqlite", { "enableFTS": true, "useSQLCipher": false }],
+      ["expo-notifications", { "color": "#00E5FF" }]
+    ],
+    "newArchEnabled": false
+  }
+}
